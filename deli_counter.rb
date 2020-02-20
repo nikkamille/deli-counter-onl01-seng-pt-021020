@@ -5,7 +5,7 @@ def line(array)
   if array.empty?
     puts "The line is currently empty."
   else
-    with_numbers = array.each_with_index {|name, index| "#{index + 1}. #{name}}
+    with_numbers = array.map_with_index {|name, index| "#{index + 1}. #{name}}
     
     # puts "The line is currently: #{index + 1}. #{name}"}
   end
