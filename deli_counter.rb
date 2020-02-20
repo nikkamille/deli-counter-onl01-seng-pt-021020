@@ -5,8 +5,9 @@ def line(array)
   if array.empty?
     puts "The line is currently empty."
   else
-    with_numbers = array.map.with_index {|name, index| "#{index + 1}. #{name}}
     phrase = "The line is currently:"
+    with_numbers = array.map.with_index {|name, index| "#{index + 1}. #{name}}
+    puts phrase
   end
 end
 
