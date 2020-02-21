@@ -21,8 +21,5 @@ def now_serving(array)
     first = array.shift
     phrase = "Currently serving #{first}."
     puts phrase
-    # array.each {|name| puts "Currently serving #{name}."} # && array.delete_at(0)
-    
-    # array.delete_at(0)
   end
 end
