@@ -9,5 +9,5 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  
+  # expect "Welcome, Ada. You are number 1 in line."
 end
