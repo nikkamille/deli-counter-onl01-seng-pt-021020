@@ -18,7 +18,7 @@ def now_serving(array)
   if array.empty?
     puts "There is nobody waiting to be served!"
   else
-    first = array.first
+    first = array.shift
     phrase = "Currently serving #{first}."
     # array.each {|name| puts "Currently serving #{name}."} # && array.delete_at(0)
     
